@@ -58,5 +58,9 @@ public class Empleado {
 		this.sueldo = sueldo;
 	}
 	
+	public void aumento(double porcentaje) {
+		sueldo *= ( 1  +porcentaje );
+	}
+	
 	
 }
